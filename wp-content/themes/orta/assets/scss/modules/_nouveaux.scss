@@ -48,23 +48,67 @@
 .petitmenu{
     .titreun{
         background: #c6b28f;
+        //height: 50px;
+        line-height: 50px;
+        text-align: center;
+        border-bottom: 1px solid #000 ;
+
         a{
+            display: block;
+            vertical-align: middle;
             color: #fff;
             width: 100%;
+            //height: 50px;
+            line-height: 50px;
+            font-size: 24px;
         }
+        .titredeux{
+            height: auto;
 
-        .contenun{
-            display: none;
+            form{
+                height: auto;
+
+                line-height: 50px;
+                //height: 50px;
+                background: #e3d0af;
+            }
         }
+        }
+        }
+.petitmenu{
+    .titreun{
         .titredeux  {
             display: none;
+            position: relative;
             .contenu{
+                display: none;
+                height: auto;
                 form{
-                    display: none;
+                    position: relative;
+                    border: none;
                 }
 
             }
         }
     }
+}
 
+.se{
+    border-bottom: 1px solid #000 ;
+    form{
+        position: relative;
+        text-align: center;
+        background: #c6b28f;
+        border: none;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 24px;
+        color: #fff;
+        input{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    }
 }

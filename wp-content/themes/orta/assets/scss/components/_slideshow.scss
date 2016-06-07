@@ -34,7 +34,9 @@
             }
             #coeur{
                 width: 60px;
-
+                &:hover{
+                    opacity: 0.5;
+                }
             }
             ul{
                 li{

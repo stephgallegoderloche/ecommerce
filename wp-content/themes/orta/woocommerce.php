@@ -7,11 +7,18 @@
  */
 
 get_header(); ?>
-<div class="row ariane">
-    <?php woocommerce_breadcrumb() ;?>
-</div>
+
 <div class="row">
 	<div class="small-12 large-12 columns mesproduit" role="main">
+
+        <?php if(is_product_category() && !is_product_category('news') && !is_product_category('bracelet')){ ?>
+                <div class="row filtres-produits">
+                    <h2>Filtres</h2>
+                    <?php dynamic_sidebar( 'filtres-woo' ); ?>
+                    <hr class="clear">
+                </div>
+                <?php }?>    
+
 
 	<?php do_action( 'foundationpress_before_content' ); ?>
 

@@ -33,10 +33,14 @@ require('marques.php')
 		<?php endif; // End have_posts() check. ?>
 
 		<?php /* Display navigation to next/previous pages when applicable */ ?>
-		
+
 
 	</article>
-
+	<div class="row">
+	    <a class="gdbouton" href="http://localhost:8080/ecommerce/blog">
+	        <div class="center">Voir tous les articles</div>
+	    </a>
+	</div>
 
 </div>
 

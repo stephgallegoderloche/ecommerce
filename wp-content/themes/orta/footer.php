@@ -126,18 +126,26 @@
 <?php do_action( 'foundationpress_before_closing_body' ); ?>
 <script type="text/javascript">
 $(document).ready(function(){
-$('.petitmenu').each(function(){
-$(this).find('.titreun').on('click', function(e){
-    e.stopPropagation();
-    $(this).find('.titredeux').toggle()
-})
 
-$(this).find('.titredeux').on('click', function(e){
-    e.stopPropagation();
-  $(this).find('.contenu').toggle()
-})
-})
-})
+    //$('.petitmenu').each(function()
+    //{
+
+        $(this).find('.titreun').on('click', function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            $(this).find('.titredeux').toggle()
+        });
+
+        $(this).find('.titredeux').on('click', function(e){
+            console.log($(this).find('.contenu'));
+            e.preventDefault();
+            e.stopPropagation();
+            $(this).find('.contenu').slideDown()
+        });
+
+    //});
+
+});
 </script>
 
 

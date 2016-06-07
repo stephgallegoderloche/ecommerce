@@ -9,7 +9,7 @@
             Boîtier en aluminium argent de 42 mm avec Bracelet Sport bleu
         </p>
         <h3>399,00 €</h3>
-        <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" />
+        <a href="#"> <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" /></a>
         <p id="tva">
             TVA et frais inclus : env. 67,00 €*.
         </p>
@@ -40,7 +40,7 @@
             Boîtier en aluminium argent de 42 mm avec Bracelet cuir
         </p>
         <h3>6399,00 €</h3>
-        <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" />
+        <a href="#"> <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" /></a>
 
             <ul>
                 <li>
@@ -65,7 +65,7 @@
             Boîtier en aluminium argent de 42 mm avec Bracelet cuir
         </p>
         <h3>2399,00 €</h3>
-        <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" />
+    <a href="#"> <img id="coeur" src="<?= _URL_IMAGES; ?>/icons/coeur.png" alt="favoris" /></a>
 
             <ul>
                 <li>
@@ -109,7 +109,7 @@
             </ul>
             <div class="bouton_panier">
                 <a href="#" >Ajouter au panier  </a>
-            
+
             </div>
         </div>
     </div>

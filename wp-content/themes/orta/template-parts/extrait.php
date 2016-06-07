@@ -16,8 +16,10 @@
         <div class="imgart large-5 medium-5 small-12 columns">
         	<?php echo get_the_post_thumbnail( $page->ID, 'extrait' ); ?>
         </div>
+        
         <div class="infoart large-6 medium-6 small-12 columns">
         	<h6><?php the_title(); ?></h6>
+
         	<div class="contenu">
             	<?php foundationpress_entry_meta(); ?>
                 <?php the_excerpt(); ?>

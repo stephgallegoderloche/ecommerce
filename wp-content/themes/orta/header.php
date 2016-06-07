@@ -55,6 +55,9 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'top-bar-r' ) ); ?>
 			</div>
 		</nav>
+		<div class="row ariane">
+		    <?php woocommerce_breadcrumb() ;?>
+		</div>
 	</header>
 
 

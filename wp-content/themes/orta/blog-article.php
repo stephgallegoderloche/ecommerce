@@ -3,7 +3,6 @@
 <h2>Les dernières news</h2>
 	<article class=" main-content">
 
-
 		<?php
 		if (is_page()) {
 		  $cat=get_cat_ID($post->post_title); //use page title to get a category ID
@@ -18,4 +17,9 @@
 		?>
 
 	</article>
+	<div class="row">
+	    <a class="gdbouton" href="http://localhost:8080/ecommerce/news/">
+	        <div class="center">Voir tous les produits</div>
+	    </a>
+	</div>
 </div>
