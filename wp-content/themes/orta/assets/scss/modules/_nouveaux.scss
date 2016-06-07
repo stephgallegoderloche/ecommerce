@@ -1,0 +1,70 @@
+.item{
+    position:relative;
+
+    .linkproduct{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    //li{
+        //list-style: none;
+        span{
+            font-size: 30px;
+        }
+        .product_type_simple{
+            position: relative;
+            width: 200px;
+            margin-top: 20px;
+            background:url(../images/icons/panier_blanc.png) no-repeat 160px center #c6b28f;
+            z-index: 99;
+
+            &:hover{
+                background:url(../images/icons/panier.png) no-repeat 160px center #ac9771;
+                color: #000;
+            }
+        }
+
+    //}
+}
+.conteneurnouv{
+    margin:0;
+    box-sizing: border-box;
+    .watches-img{
+
+        a{
+            img{
+                height: 250px;
+            }
+        }
+
+    }
+
+}
+.petitmenu{
+    .titreun{
+        background: #c6b28f;
+        a{
+            color: #fff;
+            width: 100%;
+        }
+
+        .contenun{
+            display: none;
+        }
+        .titredeux  {
+            display: none;
+            .contenu{
+                form{
+                    display: none;
+                }
+
+            }
+        }
+    }
+
+}

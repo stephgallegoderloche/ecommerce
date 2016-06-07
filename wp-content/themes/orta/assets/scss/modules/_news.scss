@@ -1,0 +1,115 @@
+.imgmark{
+    width: 33%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.main-content{
+    margin-top: 50px;
+}
+.main-content div{
+
+    margin-bottom: 20px;
+}
+.main-content header h2 a{
+    color:#c6b28f;
+}
+.entry-content h2{
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.entry-content h3 strong{
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.entry-content p img{
+    margin: 20px 0;
+}
+.shop_table thead{
+    background:#ac9771;
+}
+.shop_table thead tr th {
+    color:#fff;
+}
+.ytp-thumbnail-overlay {
+    margin: 20px 0;
+}
+.entry-content{
+    margin-bottom: 20px;
+    p{
+        a{
+            color:#c6b28f;
+            &:hover{
+                color:#ac9771;
+            }
+        }
+    }
+}
+.byline a{
+    color:#c6b28f;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background: #c6b28f;
+    &:hover{
+        background:#ac9771;
+    }
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button{
+    background: #c6b28f;
+    color:#fff;
+    &:hover{
+        background:#ac9771;
+    }
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #c6b28f!important;
+}
+
+.byline {
+    margin-bottom: 40px!important;
+}
+.imgart{
+    width:50%;
+    display: inline-block;
+}
+.infoart{
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.infoart h6{
+    font-size: 30px;
+    font-weight: 700;
+}
+p{
+
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0!important;
+}
+.boutlire {
+    background-color: #c6b28f;
+    margin: 20px 0 ;
+    float: right;
+    text-align: center;
+
+}
+.boutlire a{
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    padding:10px 80px 10px 30px;
+    background: url(../../assets/images/sources/plus.png) no-repeat 90% center;
+}
+.boutlire a:hover{
+    color: #000;
+    background: url(../../assets/images/sources/plushover.png) no-repeat 90% center;
+    background-color: #ac9771;
+}

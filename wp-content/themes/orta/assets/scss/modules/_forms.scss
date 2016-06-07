@@ -1,0 +1,101 @@
+// stylisation du titre
+//===============================
+
+.titrecont{
+    h2{
+        width: 80%;
+        font-size: 30px;
+        font-weight: 100;
+        margin-bottom: 50px;
+        border-bottom: 2px solid #000;
+    }
+}
+
+// stylisation du contenu
+//===============================
+.contcontact{
+    h4{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        margin-bottom: 30px;
+    }
+    p:first-of-type{
+        padding-bottom:20px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 27px;
+        strong{
+            color:#c6b28f;
+            font-weight: 700;
+        }
+    }
+    h3{
+        font-size: 33px;
+        line-height: 53px;
+        color:#c6b28f;
+        margin: 30px 0;
+    }
+    h2{
+        border:none;
+        width: 100%;
+        padding-top: 40px;
+        strong{
+
+            text-align: center;
+            font-size: 48px;
+            color:#c6b28f;
+            }
+    }
+}
+
+// stylisation du formulaire
+//===============================
+.formulaire{
+                border-left: 1px solid #000;
+    form{
+
+        padding: 30px;
+        border-bottom: none;
+        div{
+            p{
+                input{
+                    border-bottom: 1px solid #000;
+                    }
+            }
+        div{
+            p{
+                span{
+                    textarea{
+                        border: 1px solid #c6b28f;
+                    }
+            }
+        }
+
+        }
+        .messenvoie{
+            p{
+                input[type="submit"]{
+                    &.wpcf7-form-control{
+                        width: 100%;
+                        background: #c6b28f;
+                        box-shadow: none;
+                        border: none;
+                        background: url(../../assets/images/sources/envelope.png) no-repeat 80% center #c6b28f;
+                        background-size: 30px 20px;
+                        &:hover{
+                            background:#b7a17a;
+                            color:#000;
+                            background: url(../../assets/images/sources/multimedia.png) no-repeat 80% center #b7a17a;
+                            //background-size: 30px 20px;
+                        }
+                }
+            }
+            }
+
+        }
+
+    }
+}
+}

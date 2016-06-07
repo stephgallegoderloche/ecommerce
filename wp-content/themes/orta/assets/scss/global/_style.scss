@@ -1,0 +1,189 @@
+
+
+    body{
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    main{
+        width: 1220px;
+        margin: 0 auto;
+    }
+
+    footer{
+        width: 1220px;
+        margin: 0 auto;
+    }
+.slider{
+width: 100%;
+
+}
+.owl-dots{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    .owl-dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: gray;
+        display: inline-block;
+        margin-right: 20px;
+        &:hover{
+            background: #c6b28f;
+        }
+    }
+}
+
+
+    .titre_section{
+        border-bottom: 2px solid #000;
+        width: 80%;
+        margin: 50px 0;
+        font-size: 36px;
+    }
+
+    .subscribe-input{
+        display: inline-block;
+        width: 75%;
+    }
+
+    /*[type=text], [type=password], [type=date], [type=datetime], [type=datetime-local], [type=month], [type=week], [type=email], [type=number], [type=search], [type=tel], [type=time], [type=url], [type=color], textarea{
+        display: inline-block;
+        width: 75%;
+    }*/
+
+.footinfo{
+    li{
+        list-style-type: none;
+        h3{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        .price{
+            display: block;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .add_to_cart_button{
+            @extend .button;
+            background : #c6b28f !important;
+            position:relative;
+            width:60%;
+        }
+        .added_to_cart{
+            display: block;
+            color:#c6b28f;
+            &:hover{
+                color:#ac9771;
+            }
+        }
+
+        .imgbutton{
+            position:absolute;
+            right:2%;
+            top:0;
+            bottom:0;
+            margin:auto;
+            background:url(../../assets/images//icons/panier_blanc.png) center;
+            width:60px;
+            height:60px;
+            background-repeat:no-repeat;
+            &:hover{
+                background:url(../../assets/images//icons/panier.png) center;
+                    background-repeat:no-repeat;
+            }
+        }
+    }
+}
+ h2{
+    width: 80%;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 50px 0;
+    border-bottom: 2px solid #000;
+}
+.produit{
+    width: 33%;
+    display: inline-block;
+}
+
+.infoprod strong{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 36px;
+}
+.infoprod h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+.infoprod p{
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.gdbouton{
+
+    width: 100%;
+    height: 135px;
+    text-align: center;
+    margin: 50px 0;
+    display: block;
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    vertical-align: middle;
+    display:flex;
+    background:#c6b28f;
+    .center{
+        width: 100%;
+        margin: auto;
+        background: url(../../assets/images/sources/plus.png) no-repeat 70% center;
+        &:hover{
+            background: url(../../assets/images/sources/plushover.png) no-repeat 70% center;
+        }
+    }
+    &:hover{
+        color:#000;
+
+    }
+}
+.titre_section{
+    margin-bottom: 50px;
+}
+.marqcontenu{
+    margin: 50px 0;
+}
+.marque{
+    width: 100%;
+    display: inline-block;
+
+}
+
+@media screen and (max-width: 1250px){
+    .gdbouton{
+
+        width: 100%;
+        height: 135px;
+        text-align: center;
+        margin: 50px 0;
+        display: block;
+        color: #fff!important;
+        font-size: 36px;
+        text-decoration: none;
+        vertical-align: middle;
+        display:flex;
+        background:#c6b28f;
+        .center{
+            width: 100%;
+            margin: auto;
+            background:none;
+            &:hover{
+                background:none;
+            }
+        }
+        &:hover{
+            color:#000;
+
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+.woocommerce div.product .product_title{
+    border-bottom: 2px solid #000;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price{
+    color:#c6b28f;
+    font-size: 33px;
+    font-weight: 700;
+    padding: 50px 0;
+    display: block;
+}
+.mesproduit{
+    .product{
+        .summary {
+            .description{
+                p{
+                    margin-bottom: 50px;
+                }
+            }
+
+        }
+    }
+}

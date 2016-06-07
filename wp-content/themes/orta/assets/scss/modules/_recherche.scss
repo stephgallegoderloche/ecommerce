@@ -1,0 +1,78 @@
+/* Navigation breakpoints */
+
+.desktop-menu, .top-bar-left {
+  @include show-for(medium);
+}
+
+#mobile-menu, .title-bar {
+  @include hide-for(medium);
+}
+
+/* Mobile menu */
+
+.off-canvas {
+ > ul.menu {
+    height: 100vh;
+    padding: 1rem;
+  }
+}
+
+.title-bar-title {
+  a {
+    font-size: 1rem;
+    color: #B9B9B9;
+  }
+}
+
+/* Tablet and desktop menu */
+section{
+
+    .recherche{
+
+        background: #fff;
+        li{
+            display: inline-block;
+            text-decoration: none;
+            img{
+                vertical-align: bottom;
+            }
+        }
+    }
+    }
+    .logo-full{
+        margin: 50px 0;
+    }
+
+
+
+ .top-bar-section{
+     .recherche{
+         li{
+             #searchform{
+                 width: 80%;
+                 position: relative;
+                div{
+
+                    input{
+                    }
+                    button{
+                        border: none;
+                        background: none;
+                        position: absolute;
+                        top:5px;
+                        right:0;
+                    }
+
+                 }
+             }
+         }
+         .logo{
+             
+             padding: 10px 0;
+
+             &:hover{
+                 opacity: 0.5;
+             }
+         }
+     }
+ }

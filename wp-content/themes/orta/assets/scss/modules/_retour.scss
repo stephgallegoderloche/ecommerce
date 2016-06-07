@@ -1,0 +1,66 @@
+.retour{
+    margin-bottom: 50px;
+    .inforetour{
+            h3{
+                display: block;
+                font-size: 30px;
+            }
+            p{
+                display: block;
+                margin-top: 20px;
+                strong{
+                    display: block;
+                    padding: 30px 0;
+                    font-size: 18px;
+                }
+            }
+            p{
+                span{
+                    display: block;
+                    font-weight: 700;
+                margin-bottom: 50px;
+                }
+            }
+        }
+
+    }
+.maisretour{
+    h3{
+        display: block;
+         margin-bottom:40px;
+    }
+    a{
+        strong{
+            margin-left: 10px;
+            text-align: center;
+            color: #c6b28f;
+            &:hover{
+                color: #ac9771;
+            }
+        }
+    }
+}
+.textretour{
+    border-top: 1px solid #000;
+    h5{
+        strong{
+            display: block;
+            margin-top: 50px;
+            text-align: center;
+            font-weight: 800;
+            font-size: 33px;
+            text-transform: uppercase;
+        }
+    }
+}
+.avis{
+    img{
+        margin-top: 5px;
+    }
+}
+.lien{
+    color: #c6b28f;
+    &:hover{
+        color: #ac9771;
+    }
+}

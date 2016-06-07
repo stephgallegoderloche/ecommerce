@@ -1,0 +1,60 @@
+.cycle-slideshow {
+    width: 100%;
+    position: relative;
+
+
+    .cycle-slide {
+        min-width: 100%;
+        position: relative;
+
+        .imgslide{
+            min-width:100%;
+        }
+
+        .contenu{
+            width: 300px;
+            height: 75%;
+            position: absolute;
+            top: 10px;
+            right: 250px;
+            h2 {
+                font-weight: 900;
+                font-size: 30px;
+            }
+            p{
+                font-size: 14px;
+                margin: 0;
+            }
+            h3{
+                font-weight: 700;
+                font-size: 36px;
+                margin-right: 50px;
+                display: inline-block;
+
+            }
+            #coeur{
+                width: 60px;
+
+            }
+            ul{
+                li{
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
+        }
+        .bouton_panier{
+            a{display: block;
+                width: 250px;
+                padding: 10px;
+                background:url(../images/icons/panier_blanc.png) no-repeat 190px center #c6b28f;
+                text-align: center;
+                color:#fff;
+                &:hover{
+                    background:url(../images/icons/panier.png) no-repeat 190px center #ac9771;
+                    color: #000;
+                }
+            }
+        }
+}
+}

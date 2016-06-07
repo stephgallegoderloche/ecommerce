@@ -1,0 +1,12 @@
+.add_to_cart_button{
+    position: relative;
+    width: 200px;
+    margin-top: 20px;
+    background:url(../images/icons/panier_blanc.png) no-repeat 160px center #c6b28f;
+    z-index: 99;
+
+    &:hover{
+        background:url(../images/icons/panier.png) no-repeat 160px center #ac9771;
+        color: #000;
+    }
+}
