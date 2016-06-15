@@ -14,7 +14,7 @@
                 <?php echo $price = get_post_meta( get_the_ID(), '_regular_price', true);?>€
             </span>
         </span>
-        <a href="<?php the_permalink(); ?>"> <br>Voir le produit</a>
+        <a href="<?php the_permalink(); ?>" style="color:#c6b28f;" class="vpdt"> <br>Voir le produit</a>
     </span>
 
     <div class="btachat">

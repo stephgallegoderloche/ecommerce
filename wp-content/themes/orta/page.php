@@ -10,7 +10,7 @@
  * @since FoundationPress 1.0.0
  */
 
-include('header-blog.php'); ?>
+get_header(); ?>
 
  <?php get_template_part( 'template-parts/featured-image' ); ?>
 
@@ -41,4 +41,4 @@ include('header-blog.php'); ?>
 
  </div>
 
-<?php include('footer-blog.php');?>
+<?php get_footer();

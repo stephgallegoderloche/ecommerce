@@ -14,19 +14,19 @@
 
 		<footer>
 			<div class="row rassurance">
-				<div class="small-6 large-12 columns rassu">
+				<div class="small-12 large-3 columns rassu">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/sources/24_hours.png" alt="24_hours">
 					<h3>Retour Rapide</h3>
 				</div>
-				<div class="small-6 large-12 columns rassu">
+				<div class="small-12 large-3 columns rassu">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/sources/credit.png" alt="24_hours">
 					<h3>Paiement Sécurisé</h3>
 				</div>
-				<div class="small-6 large-12 columns rassu">
+				<div class="small-12 large-3 columns rassu">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/sources/livraison.png" alt="24_hours">
 					<h3>Livraison Rapide</h3>
 				</div>
-				<div class="small-6 large-12 columns rassu">
+				<div class="small-12 large-3 columns rassu">
 					<img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/sources/box.png" alt="24_hours">
 					<h3>Emballage Adapté</h3>
 				</div>
@@ -44,7 +44,7 @@
         	   	</div>
         	   	<div class="small-6 large-3 columns footinfo">
         	   		<h4>Newsletter</h4>
-        	   		<form action="index.html" method="post" class="subscribe-form">
+        	   		<form action="index.html" method="post" class="formfoot">
         	   			  <input type="email" name="email" class="subscribe-input" placeholder="Votre adresse mail..." >
         	   			  <button type="submit" class="subscribe-submit"><img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/sources/multimedia.png" alt=""> </button>
         	   		</form>

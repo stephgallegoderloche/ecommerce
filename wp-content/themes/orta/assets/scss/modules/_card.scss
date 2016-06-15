@@ -1,0 +1,32 @@
+.woocommerce{
+    margin-bottom: 500px;
+    position: relative;
+    float: none;
+}
+
+.cart-collaterals{
+    position: relative;
+
+
+}
+.cart_totals {
+    position: relative;
+    h2{
+        font-size: 25px;
+        border-bottom: 1px solid #000;
+    }
+}
+.entry-title{
+        border-bottom: 1px solid #000;
+        margin-bottom: 50px;
+}
+.entry-content p a{
+    color:#fff;
+}
+.woocommerce-shipping-calculator{
+    position: relative;
+    right: 5px;
+}
+.actions{
+    margin-bottom: 200px;
+}

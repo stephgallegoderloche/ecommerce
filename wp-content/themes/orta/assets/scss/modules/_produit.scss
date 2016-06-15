@@ -22,3 +22,115 @@
         }
     }
 }
+.related .products{
+
+ h3{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #000;
+    }
+    .price{
+        .amount{
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 40px;
+            color:#c6b28f;
+        }
+
+    }
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button :focus{
+    background: none;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+    font-size: 100%;
+        margin: 0;
+        line-height: 1;
+        cursor: pointer;
+        position: relative;
+        font-family: inherit;
+        text-decoration: none;
+        overflow: visible;
+        padding: 20px;
+        font-weight: 700;
+        border-radius: 3px;
+        left: auto;
+        color: #fff;
+        background-color: #c6b28f;
+        border: 0;
+        white-space: nowrap;
+        display: inline-block;
+        background-image: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        text-shadow: none;
+
+
+}
+.wc-forward{
+    color:#c6b28f;
+}
+.vpdt{
+    color:#c6b28f;
+    &:hover{
+        background: none !important;
+        color:#000 !important;
+    }
+}
+
+    .woocommerce button.button{
+        margin-top: 200px;
+        position: relative;
+        display: block;
+        left:0;
+    }
+    .posted_in{
+        left:-50px;
+    }
+.cross-sells{
+    h2{
+        font-size: 25px;
+        border-bottom: 1px solid #000;
+    }
+    .products{
+        padding-left: 100px!important;
+        li{
+            a{
+                h3{ font-size:25px !important;
+                    font-weight: 300;
+                    color:#000;
+                }
+                .price{
+                    font-size: 30px !important;
+                    font-weight: 700 !important;
+                    color:#c6b28f !important;
+                }
+            }
+        }
+    }
+}
+.mesproduit{
+    form{
+        select{
+            border-bottom: 1px solid #000;
+        }
+    }
+    .products{
+        li{
+            a{
+                h3{
+                    font-size:25px !important;
+                        font-weight: 300;
+                        color:#000;
+                }
+                .price{
+                    font-size: 30px !important;
+                    font-weight: 700 !important;
+                    color:#c6b28f !important;
+                }
+            }
+        }
+    }
+}

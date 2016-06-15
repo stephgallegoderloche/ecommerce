@@ -1,0 +1,60 @@
+.recherchebrac{
+    margin-top: 50px ;
+    margin-bottom: 100px;
+    div{
+        .deroule{
+            border-bottom: 1px solid #000;
+            select{
+                span{
+                    &:hover select {background: #c6b28f;
+                }
+            }
+        }
+    }
+}
+}
+
+#page-full-width{
+    .brac{
+        height: 550px;
+        position: relative;
+        margin-bottom: 100px;
+        .imbrac{
+            margin-bottom: 20px;
+        }
+        .titrebrac{
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        .coeurbrac{
+            position: absolute;
+            right: 50px;
+            bottom: 250px;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .extbrac{
+            height: 50px;
+            margin-bottom: 50px;
+            padding: 0 25px 0 0;
+        }
+        .prixbrac{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            color:#c6b28f;
+        }
+        .btachat{
+
+            a{
+                font-size: 16px;
+                &:focus{
+                    background-color: #ac9771;
+                }
+            }
+        }
+    }
+}

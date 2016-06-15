@@ -127,6 +127,9 @@ function woo_custom_product_searchform( $form ) {
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
 		)
-	);     
+	);
 }
 add_action( 'widgets_init', 'textdomain_register_sidebars' );
+register_nav_menus( array(
+        'blog' => 'Navigation secondaire',
+    ) );

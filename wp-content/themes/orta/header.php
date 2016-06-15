@@ -34,7 +34,7 @@
 		<section>
 			<div class="top-bar-section">
 				<ul class="recherche row">
-						<li class="large-6 columns rech">
+						<li class="large-6 columns rechhead">
 							<?php get_product_search_form( $echo = true );?>
 						</li>
 						<li class="large-1 large-offset-4 columns avatar">

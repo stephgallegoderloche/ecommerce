@@ -64,13 +64,17 @@
         }
         .titredeux{
             height: auto;
+            a{
+            font-size: 18px;
+            background:   #e3d0af;
+            }
 
             form{
                 height: auto;
-
+                width: 100%;
                 line-height: 50px;
                 //height: 50px;
-                background: #e3d0af;
+                background: #e4d6bc;
             }
         }
         }
@@ -83,6 +87,7 @@
             .contenu{
                 display: none;
                 height: auto;
+
                 form{
                     position: relative;
                     border: none;
